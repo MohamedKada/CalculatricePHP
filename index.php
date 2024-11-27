@@ -3,13 +3,13 @@ session_start();
 
 // Initialisation de la session si vide
 if (!isset($_SESSION['result'])) {
-    $_SESSION['result'] = '0'; // Initialisation à '0' ou vide
+    $_SESSION['result'] = ''; // Initialisation à '0' ou vide
 }
 if (!isset($_SESSION['OP'])) {
     $_SESSION['OP'] = ''; // Initialisation de OP à une chaîne vide
 }
 if (!isset($_SESSION['NB'])) {
-    $_SESSION['NB'] = 0; // Initialisation de NB à 0
+    $_SESSION['NB'] = 0.0; // Initialisation de NB à 0
 }
 ?>
 
